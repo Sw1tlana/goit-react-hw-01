@@ -1,0 +1,77 @@
+.profile {
+    align-items: center;
+    border: 2px solid var(--black-background);
+    border-radius: 15px; 
+    padding-top: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+ .profileAvatarInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+.profileImg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.profileName {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: var(--text-dark);
+    margin-bottom: 10px;
+}
+
+.profileTextInfo {
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    font-weight: 500;
+    color: var(--accent);
+    margin-bottom: 10px;
+}
+
+.profileList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-top: 2px solid var(--dark-grey-background);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: var(--light-gray-background);
+}
+
+.profileListItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 4px;
+    padding: 10px;
+    border-right: 2px solid var(--dark-grey-background);
+    width: 100%;
+}
+
+.profileListItem:last-child {
+   border-right: 0;
+}
+
+.profileSubtext {
+    text-align: center;
+    font-size: 18px;
+    color: var(--text-dark);
+}
+
+.profileNumber {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+} 
