@@ -1,0 +1,40 @@
+.friendList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.friendCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid var(--black-background);
+    border-radius: 4px; 
+    padding: 30px 24px;
+    width: 140px;
+    color: var(--red-accent);
+}
+
+.friendImg {
+    margin-bottom: 10px;
+ }
+ 
+ .friendName {  
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: -0.02em;
+    color: var(--text-dark);
+ }
+ 
+ .friendStatus {
+    font-size: 16px;
+ }
+
+.friendCard.cardStatus {
+    color: var(--green-accent);
+}
+
+
